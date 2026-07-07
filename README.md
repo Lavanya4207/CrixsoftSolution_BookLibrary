@@ -20,18 +20,18 @@ Personal Book Library is a web application developed using HTML5, CSS3, and Java
 
 ## Project Structure
 
-```text
+
 CrixsoftSolution_BookLibrary/
 │── index.html
 │── style.css
 │── script.js
 └── screenshots/
     └── output.png
-```
+
 
 ## Output
 
-![Personal Book Library](screenshots/output.png)
+![Personal Book Library](output.png)
 
 ## Author
 
