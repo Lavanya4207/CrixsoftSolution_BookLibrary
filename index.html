@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav>
+
+<div class="logo">
+<i class="fa-solid fa-book"></i>
+My Library
+</div>
+
+<ul>
+
+<li><a href="#">Book Entry</a></li>
+
+<li class="active"><a href="#">Books</a></li>
+
+<li><a href="#">Subjects</a></li>
+
+<li><a href="#">Settings</a></li>
+
+<li><a href="#">Admin</a></li>
+
+</ul>
+
+<div class="logout">
+
+<a href="#">Logout</a>
+
+</div>
+
+</nav>
+
+<!-- Search -->
+
+<div class="top">
+
+<input
+type="text"
+id="search"
+placeholder="Title Search..."
+onkeyup="searchBook()">
+
+</div>
+
+<!-- Table -->
+
+<div class="table-container">
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Cover</th>
+
+<th>Title</th>
+
+<th>Author</th>
+
+<th>Category</th>
+
+<th>Status</th>
+
+<th>Pages</th>
+
+<th>Added</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="bookList">
+
+</tbody>
+
+</table>
+
+</div>
+
+<!-- Add Book -->
+
+<div class="entry">
+
+<h2>Add New Book</h2>
+
+<input
+type="text"
+id="title"
+placeholder="Book Title">
+
+<input
+type="text"
+id="author"
+placeholder="Author">
+
+<select id="category">
+
+<option value="">Select Category</option>
+
+<option>Programming</option>
+
+<option>Science</option>
+
+<option>Biography</option>
+
+<option>History</option>
+
+<option>Fiction</option>
+
+</select>
+
+<input
+type="number"
+id="pages"
+placeholder="Pages">
+
+<input
+type="date"
+id="date">
+
+<input
+type="text"
+id="image"
+placeholder="Book Cover Image URL">
+
+<button onclick="addBook()">
+
+Add Book
+
+</button>
+
+</div>
+
+<!-- Borrow History -->
+
+<div class="history">
+
+<h2>Borrowing History</h2>
+
+<ul id="historyList">
+
+</ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
