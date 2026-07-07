@@ -27,8 +27,11 @@ CrixsoftSolution_BookLibrary/
 
 ## Output
 
-![Home Page](![Uploading output.png…]()
-)
+## Output
+
+### Home Page
+
+![Home Page](screenshots/output.png)
 
 ## Author
 Lavanya
