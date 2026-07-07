@@ -1,17 +1,17 @@
 # 📚 Personal Book Library
 
 ## Description
-Personal Book Library is a web application developed using HTML5, CSS3, and JavaScript. It helps users manage their personal book collection.
+Personal Book Library is a web application developed using HTML5, CSS3, and JavaScript.
 
 ## Features
-- Add New Books
-- Search Books
+- Add Book
+- Search Book
 - Book Categories
-- Borrow & Return Books
-- Edit Book Details
-- Delete Books
+- Borrow & Return
+- Edit Book
+- Delete Book
 - Borrowing History
-- Local Storage Support
+- Local Storage
 
 ## Technologies Used
 - HTML5
@@ -20,18 +20,19 @@ Personal Book Library is a web application developed using HTML5, CSS3, and Java
 
 ## Project Structure
 
+```text
 CrixsoftSolution_BookLibrary/
 │── index.html
 │── style.css
 │── script.js
+└── screenshots/
+    └── output.png
+```
 
 ## Output
 
-## Output
-
-### Home Page
-
-![Home Page](screenshots/output.png)
+![Personal Book Library](screenshots/output.png)
 
 ## Author
-Lavanya
+
+**Lavanya**
